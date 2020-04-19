@@ -1,0 +1,24 @@
+<h1>Sri Hari| CMPE 285 | 014533571 </h1>
+<h1>Hi, Welcome to Stock API App</h1>
+<h3>
+  {{output1}}
+
+</h3>
+
+
+<h3>
+    
+  {%for item in outputs%}
+      <ul>{{item}}</ul>
+  {% endfor %}
+
+
+</h3>
+
+<h3>
+
+    <form action="result">
+     Enter Stock Symbol: <input type="text" name="symbol" placeholder="Ex:FB" required><br></br>
+    <input type="submit">
+    </form>
+
